@@ -1,0 +1,24 @@
+<h1>Employee Master</h1>
+<%= form_for :post do |f|  %>
+    <p>
+       <b><center> <%= f.label :EMPID %>
+        <%=	f.text_field :EMPID %></center></b>
+    </p>
+    <p>
+        <b><center><%= f.label :EMPNAME %>
+        <%= f.text_field :EMPNAME %></center></b>
+    </p>
+    <p>
+        <b><center><%= f.label :SALARY %>
+        <%= f.text_field :SALARY %></center></b>
+    </p>
+   <p>
+        <center>
+        <input type="button" value="NEW">
+        <input type="SUBMIT" value="SAVE">
+        <input type="SUBMIT" value="SEARCH">
+        </center>
+   </p>
+
+<%	end  %>
+
